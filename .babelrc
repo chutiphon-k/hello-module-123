@@ -1,6 +1,6 @@
 {
 	"presets": [
-		"es2015",
+		"backpack-core/babel",
 		"stage-0"
 	]
 }
