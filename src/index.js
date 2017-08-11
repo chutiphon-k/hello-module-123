@@ -1,7 +1,7 @@
 console.log('hello eieiza')
 
 function Function1 (x) {
-	return 'aaaaaaa'
+	return `hello ${x}`
 }
 
 export {
