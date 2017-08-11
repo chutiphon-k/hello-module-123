@@ -1,8 +1,10 @@
+import moment from 'moment'
+
 console.log('hello eieiza')
-console.log('hello 333333333333')
+console.log(moment().calendar())
 
 function Function1 (x) {
-	return `hello ${x}`
+	return `hello ${x}` + moment().calendar()
 }
 
 export {
