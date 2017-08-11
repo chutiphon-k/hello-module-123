@@ -1,6 +1,6 @@
 {
   "name": "hello-module-123",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/main.js",
   "repository": "https://chutiphon-k@github.com/chutiphon-k/hello-module-123.git",
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
