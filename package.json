@@ -6,6 +6,7 @@
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
   "license": "MIT",
   "dependencies": {
+    "babel-loader": "^7.1.1",
     "babel-preset-stage-0": "^6.24.1",
     "backpack-core": "^0.4.2",
     "postinstall-build": "^5.0.1"
