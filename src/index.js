@@ -1,13 +1,9 @@
-import moment from 'moment'
+import randomstring from 'randomstring'
 
-console.log('hello eieiza')
-console.log(moment().calendar())
-console.log(moment().calendar())
-
-function Function1 (x) {
-	return `hello ${x}` + moment().calendar()
+function handleTest () {
+	return `hello ${randomstring.generate(15)}`
 }
 
 export {
-	Function1
+	handleTest
 }

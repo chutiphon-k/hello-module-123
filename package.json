@@ -1,21 +1,18 @@
 {
   "name": "hello-module-123",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/main.js",
   "repository": "https://chutiphon-k@github.com/chutiphon-k/hello-module-123.git",
   "author": "Chutiphon.k <chutiphon.k@ku.th>",
   "license": "MIT",
   "dependencies": {
-    "babel-loader": "^7.1.1",
     "babel-preset-stage-0": "^6.24.1",
     "babili-webpack-plugin": "^0.1.2",
     "backpack-core": "^0.4.2",
-    "moment": "^2.18.1",
-    "postinstall-build": "^5.0.1",
-    "webpack-node-externals": "^1.6.0"
+    "randomstring": "^1.1.5"
   },
   "scripts": {
-    "postinstall": "postinstall-build build",
+    "postinstall": "backpack build",
     "dev": "backpack dev",
     "build": "backpack build"
   },
